@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #272838;
+    background-color: #34196a;
     color: #f7f5fb;
     padding: 0.5rem;
     text-align: center;
@@ -47,24 +47,7 @@ header {
     font-size: larger;
 }
 
-.contact-info h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-.contact-info p {
-    font-size: 20px;
-    margin: 5px 0;
-}
-.contact-info a {
-    text-decoration: none;
-    color: #000;
-}
-.contact-info a:hover {
-    color: white;
-}
-.contact-info i {
-    margin-right: 8px;
-}
+
 .projects {
     padding: 2rem;
 }
@@ -101,7 +84,7 @@ header {
     margin-top: 0;
 }
 
-.projh2 {
+.proj-h2 {
     text-align: center;
     padding: 10px;
 }
@@ -138,3 +121,119 @@ hr {
     margin: 2rem 0;
 }
 
+footer {
+    background-color: none;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 1450px) {
+    .project-card {
+        gap: 10rem;
+    }
+
+    .project-card img {
+        max-width: 350px;
+    }
+
+    .project-text {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .project-card {
+        gap: 10rem;
+    }
+
+    .project-card img {
+        max-width: 300px;
+    }
+
+    .project-text {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 1055px) {
+    .project-card {
+        gap: 5rem;
+    }
+
+    .project-card img {
+        max-width: 250px;
+    }
+
+    .project-text {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 790px) {
+    .project-number {
+        font-size: 1.5rem;
+        font-weight: bold;
+        position: relative; 
+        margin-right: 2rem; 
+        align-self: flex-start; 
+    }
+    .project-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .project-card img {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .project-text {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .project-number {
+        position: static;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.875rem;
+    }
+
+    .profile-description {
+        max-width: 100%;
+    }
+
+}
