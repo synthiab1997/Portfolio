@@ -2,7 +2,8 @@
 
 here is my first Portfolio draft link : https://github.com/synthiab1997/Portfolio.git
 
-![Portfolio](assets/Screenshot 2024-06-21 at 11.39.07.png)
+![Portfolio](https://github.com/synthiab1997/Portfolio/assets/149474030/c62c97f9-edad-41c6-87b8-3527ae92aa43">
+)
 
 # description #
 
